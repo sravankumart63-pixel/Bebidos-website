@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bebidos | Premium Almond Milk & Apparel</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --cream: #F5E6D3;
+    --brown: #4A2E1F;
+    --orange: #C4632E;
+    --gold: #D4A017;
+    --olive: #6E7F45;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cream);
+    color: var(--brown);
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background: var(--brown);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: 28px;
+}
+
+nav a {
+    color: var(--cream);
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--cream);
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background: var(--orange);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--brown);
+}
+
+/* Apparel Section */
+.apparel {
+    padding: 80px 50px;
+    background: var(--brown);
+    color: var(--cream);
+}
+
+.apparel h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.products {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: var(--cream);
+    color: var(--brown);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.price {
+    color: var(--orange);
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* About Section */
+.about {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: var(--brown);
+    color: var(--gold);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h1>BEBIDOS</h1>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h2>Sip the Royal Taste. Wear the Lifestyle.</h2>
+    <p>Premium Almond Milk & Luxury Streetwear Inspired by Tradition.</p>
+    <button class="btn">Shop Now</button>
+</section>
+
+<section class="apparel">
+    <h2>Premium Apparel Collection</h2>
+    <div class="products">
+
+        <div class="card">
+            <img src="tshirt1.jpg" alt="Bebidos T-shirt">
+            <h3>Dark Green Premium Tee</h3>
+            <p>220 GSM | 100% Combed Cotton</p>
+            <div class="price">₹799</div>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="tshirt2.jpg" alt="Bebidos T-shirt">
+            <h3>Cream Classic Tee</h3>
+            <p>200 GSM | High Density Print</p>
+            <div class="price">₹749</div>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="tshirt3.jpg" alt="Bebidos T-shirt">
+            <h3>Black Puff Print Edition</h3>
+            <p>220 GSM | Streetwear Fit</p>
+            <div class="price">₹899</div>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="about">
+    <h2>Crafted with Tradition. Designed for Style.</h2>
+    <p>Bebidos blends premium almonds, saffron, and heritage flavors into every sip — and extends that same excellence into our lifestyle apparel.</p>
+</section>
+
+<footer>
+    © 2026 Bebidos. All Rights Reserved.
+</footer>
+
+</body>
+</html>
